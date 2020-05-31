@@ -9942,6 +9942,11 @@ body {
   color: #fff;
 }
 
+.hero-section__arrow {
+  text-align: center;
+  padding-top: 210px;
+}
+
 /* Mayor a este $min-width se ve este codigo */
 @media (min-width: 480px) {
   .hero-section__titulo {

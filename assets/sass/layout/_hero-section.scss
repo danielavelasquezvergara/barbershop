@@ -23,6 +23,10 @@
 .fa-angle-double-down:before{
     color: $white;
 }
+.hero-section__arrow{
+    text-align: center;
+    padding-top:210px;
+}
 
 /* Mayor a este $min-width se ve este codigo */
 @media (min-width: $min-width) {
