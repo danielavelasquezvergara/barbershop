@@ -1,0 +1,18 @@
+.hero_section {
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+    font-style: italic;
+}
+
+.hero-section__titulo {
+    font-style: italic;
+    font-size: $xx-large;
+    color: $white;
+    font-family: $playfair;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.botones-acciones {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.botones-acciones button{
+    background-color: $nickel;
+    color: $white;
+    border-radius: 15px;
+    font-family: $regular;
+    font-size: $small;
+}
+
+/* Para pantallas que sobre pasen los 480px */
+@media (min-width: $min-width) {
+    .botones-acciones {
+        text-align: left;
+    }
+}

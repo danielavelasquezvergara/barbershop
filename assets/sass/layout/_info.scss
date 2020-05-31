@@ -1,0 +1,18 @@
+.info-texto {
+    font-size: $medium;
+    font-family: $roboto;
+    font-weight: $light-roboto;
+    color: $nickel;
+}
+
+.info-texto__parrafo__fecha {
+    padding: 30px 30px 0px 30px;
+    font-weight: $regular;
+}
+
+.info-texto__parrafo p {
+    padding: 0px 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+

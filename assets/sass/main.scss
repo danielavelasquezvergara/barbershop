@@ -1,0 +1,31 @@
+//importando a manifiesto
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//vendors
+@import 'vendors/bootstrap-4.5/bootstrap';
+
+
+//base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+//layout
+@import 'layout/navbar';
+@import 'layout/hero-section';
+@import 'layout/info';
+@import 'layout/comments';
+@import 'layout/pagination';
+@import 'layout/footer';
+
+//componets
+@import 'components/buttons';
+@import 'components/inputs';
+
+//pages
+
+
+//themes
