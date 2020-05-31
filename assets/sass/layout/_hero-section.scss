@@ -8,11 +8,34 @@
 }
 
 .hero-section__titulo {
+    background-size: cover;
     font-style: italic;
-    font-size: $xx-large;
+    font-size: $x-large;
     color: $white;
     font-family: $playfair;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 300px;
+    width: 75%;
+    text-align: center;
+}
+.fa-angle-double-down:before{
+    color: $white;
+}
+
+/* Mayor a este $min-width se ve este codigo */
+@media (min-width: $min-width) {
+    .hero-section__titulo {
+        background-size: cover;
+        font-style: italic;
+        font-size: $xx-large;
+        color: $white;
+        font-family: $playfair;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      /*  padding: 250px;*/
+    }
+
 }
